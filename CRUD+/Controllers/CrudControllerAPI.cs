@@ -4,6 +4,7 @@ using System.Linq;
 using System.Runtime.InteropServices;
 using System.Text;
 using System.Threading.Tasks;
+using CRUD.Services;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using xyToolz;
@@ -43,7 +44,7 @@ namespace CRUD.Controllers
                 string read = $"Entry with ID {id} was found: ";
                 try
                 {
-                    target = await _service.GetById(id);
+                    target = await _service.Read(id);
                     xyLog.Log(read);
                     return (target is not null) ? Ok(target) : StatusCode(404);
                 }
@@ -107,10 +108,10 @@ namespace CRUD.Controllers
                 string removed = $"Entry with ID {id} was removed from database";
                 try
                 {
-                    target = await _service.GetById(id);
+                    target = await _service.Read(id);
                     if (target != null)
                     {
-                        if (await _service.Remove(target))
+                        if (await _service.Delete(target))
                         {
                             return Ok(removed);
                         }

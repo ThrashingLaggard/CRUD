@@ -1,5 +1,5 @@
-﻿using CRUD.Repos;
-using CRUD_.Interfeces;
+﻿using CRUD.Interfaces;
+using CRUD.Repos;
 using Microsoft.EntityFrameworkCore.ChangeTracking;
 using System;
 using System.Collections.Generic;

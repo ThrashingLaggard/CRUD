@@ -1,4 +1,4 @@
-﻿namespace CRUD_
+﻿namespace CRUD
 {
     public class Class1
     {
