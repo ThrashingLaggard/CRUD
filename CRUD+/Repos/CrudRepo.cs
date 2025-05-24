@@ -1,4 +1,4 @@
-﻿using CRUD_.Interfeces;
+﻿using CRUD.Interfaces;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.ChangeTracking;
 using System;
