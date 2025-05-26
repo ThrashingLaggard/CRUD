@@ -50,21 +50,20 @@ public class UserService
 }
 ```
 
-## Project Structure
 
 
 
 ## Roadmap
 
-- Publish as a NuGet package
-- Add more extension points (e.g. soft deletes, auditing)
+
+- Add more extension points
 - Unit and integration tests
-- Documentation and usage samples
+- Documentation
 
-## License
 
-MIT (see [LICENSE.txt](LICENSE.txt))
 
+
+- 
 ## Author
 
 - [ThrashingLaggard](https://github.com/ThrashingLaggard)
