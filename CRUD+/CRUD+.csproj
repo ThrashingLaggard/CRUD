@@ -10,6 +10,10 @@
     <TargetFramework>net8.0</TargetFramework>
     <NuGetAuditMode>all</NuGetAuditMode>
     <PackageReadmeFile>README.md</PackageReadmeFile>
+    <AssemblyName>ExtendedCRUD</AssemblyName>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
   </PropertyGroup>
 
   <ItemGroup>
